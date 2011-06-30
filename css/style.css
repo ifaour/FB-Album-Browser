@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	padding: 0 10px;
+	font: normal 13px "Lucida Grande", Helvetica, Verdana, Arial;
+}
+
+#wrapper {background: #fff; width: 960px; margin: 30px auto 0 auto;}
+#header {background:#ccc; padding: 20px; overflow: hidden;}
+#header h1 {margin: 0; font-size: 22px; line-height: 22px;}
+#header h1 a {text-decoration: none; color: #fff; float: left;}
+#header .links {float: right; line-height: 22px;}
+#header .login {padding-left: 20px;}
+#content {clear: left;	padding: 20px;}
+#footer p {margin: 10px 0 0; text-align: center;}
+
+#albums {
+	border: 0 none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#albums td {
+    float: left;
+	margin: 5px;
+    padding: 10px 5px;
+    width: 156px;
+	vertical-align: top;
+}
+#albums td a {
+	text-decoration: none;
+}
+#albums td .thumb {
+	height: 115px;
+	margin: 0 0 10px;
+    width: 156px;
+}
+
+#album {
+	border: 0 none;
+    border-collapse: collapse;
+    border-spacing: 0;
+	width: 100%;
+}
+#album td {
+    padding-bottom: 10px;
+    width: 161px;
+	vertical-align: top;
+}
+#album td a {
+	text-decoration: none;
+}
+#album td .thumb {
+	height: 120px;
+    width: 161px;
+	background-repeat: no-repeat;
+	background-position: center 25%;
+	margin: 0 auto;
+}
+.paging {
+	border: 1px solid;
+    padding: 5px 20px;
+	overflow: hidden;
+}
+.next {float: right;}
+.prev {float: left;}
